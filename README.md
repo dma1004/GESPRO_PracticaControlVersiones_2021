@@ -1,2 +1,3 @@
-Equipo de Gestion de Proyectos	
-¡lvaro DÌez S·enz
+Equipo de Gestion de Proyectos
+√Ålvaro D√≠ez S√≥enz
+Jiann Pablo Zambrano Jaramillo
