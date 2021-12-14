@@ -28,10 +28,8 @@ keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 
 android {
 
-
     compileSdkVersion 26
     buildToolsVersion '26.0.1'
-
 
     defaultConfig {
         applicationId "com.davidmiguel.gobees"
@@ -150,6 +148,13 @@ dependencies {
     compile 'com.vanniktech:vntnumberpickerpreference:1.0.0'
     // Permission Utils (check runtime permissions) : https://github.com/rebus007/PermissionUtils
     compile 'rebus:permission-utils:1.0.6'
+
+    //----------------------------------------------------------------------------------------------
+    // Debugging / logging dependencies
+    //----------------------------------------------------------------------------------------------
+
+    // Timber (logger) : https://github.com/JakeWharton/timber
+    compile 'com.jakewharton.timber:timber:4.5.1'
 
     //----------------------------------------------------------------------------------------------
     // Testing Dependencies
